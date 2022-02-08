@@ -10,56 +10,66 @@ msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-16 08:52+0000\n"
-"PO-Revision-Date: 2018-01-16 08:52+0000\n"
-"Last-Translator: Cezar José Sant Anna Junior <cezar.santanna@gmail.com>, "
-"2018\n"
+"PO-Revision-Date: 2022-02-03 22:10-0400\n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/oca/"
 "teams/23907/pt_BR/)\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__open_bookmark_levels__10
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__image_reduce_resolution__1200
+#, fuzzy
 msgid "1200 DPI"
-msgstr ""
+msgstr "1200 DPI"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__image_reduce_resolution__150
+#, fuzzy
 msgid "150 DPI"
-msgstr ""
+msgstr "150 DPI"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__image_reduce_resolution__300
+#, fuzzy
 msgid "300 DPI"
-msgstr ""
+msgstr "300 DPI"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__image_reduce_resolution__600
+#, fuzzy
 msgid "600 DPI"
-msgstr ""
+msgstr "600 DPI"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__image_reduce_resolution__75
+#, fuzzy
 msgid "75 DPI"
-msgstr ""
+msgstr "75 DPI"
 
 #. module: report_py3o_fusion_server
 #: code:addons/report_py3o_fusion_server/models/ir_actions_report.py:0
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "A fusion server or a libreoffice runtime are required to genereate the py3o "
 "report '%s'. If the libreofficeruntime is already installed and is not found "
 "by Odoo, you can provide the full path to the runtime by setting the key "
 "'py3o.conversion_command' into the configuration parameters."
 msgstr ""
+"Um servidor de fusão ou um tempo de execução do libreoffice são necessários "
+"para generear o relatório py3o '%s'. Se o tempo de execução do libreoffice "
+"já estiver instalado e não for encontrado pelo Odoo, você pode fornecer o "
+"caminho completo para o tempo de execução definindo a tecla 'py3o."
+"conversion_command' nos parâmetros de configuração."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__is_active
@@ -69,62 +79,70 @@ msgstr "Ativo"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__open_bookmark_levels__-1
 msgid "All Levels"
-msgstr ""
+msgstr "﻿Todos os níveis"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__pdf_form_allow_duplicate
+#, fuzzy
 msgid "Allow Duplicate Field Names"
-msgstr ""
+msgstr "Permitir nomes de campo duplicados"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__changes__4
+#, fuzzy
 msgid "Any Except Extracting Pages"
-msgstr ""
+msgstr "Quaisquer páginas exceto extração"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__pdfa
+#, fuzzy
 msgid "Archive PDF/A-1a (ISO 19005-1)"
-msgstr ""
+msgstr "Arquivo PDF/A-1a (ISO 19005-1)"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 msgid "Bookmarks"
-msgstr ""
+msgstr "Favoritos"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__initial_view__1
+#, fuzzy
 msgid "Bookmarks and Page"
-msgstr ""
+msgstr "Marcadores e Página"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__center_window
+#, fuzzy
 msgid "Center Window on Screen"
-msgstr ""
+msgstr "Janela central na tela"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__changes
 msgid "Changes"
-msgstr ""
+msgstr "Alterações"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__changes__3
+#, fuzzy
 msgid "Commenting, Filling in Form Fields"
-msgstr ""
+msgstr "Comentando, Preenchendo campos de formulário"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__page_layout__2
 msgid "Continuous"
-msgstr ""
+msgstr "Alimentação contínua"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__page_layout__3
+#, fuzzy
 msgid "Continuous Facing"
-msgstr ""
+msgstr "Enfrentação Contínua"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__convert_doc_ref_to_pdf_target
+#, fuzzy
 msgid "Convert Document References to PDF Targets"
-msgstr ""
+msgstr "Converter referências de documentos para alvos PDF"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__pdf_form
@@ -147,30 +165,33 @@ msgstr "Criado em"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__cross_doc_link_action
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
+#, fuzzy
 msgid "Cross-document Links"
-msgstr ""
+msgstr "Links de documentos cruzados"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__cross_doc_link_action__0
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__magnification__0
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__page_layout__0
 msgid "Default"
-msgstr ""
+msgstr "Padrão"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model,name:report_py3o_fusion_server.model_py3o_pdf_options
+#, fuzzy
 msgid "Define PDF export options for Libreoffice"
-msgstr ""
+msgstr "Defina opções de exportação de PDF para o Libreoffice"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__image_reduce_resolution__none
 msgid "Disable"
-msgstr ""
+msgstr "Desativar"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__display_document_title
+#, fuzzy
 msgid "Display Document Title"
-msgstr ""
+msgstr "Exibir título do documento"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__display_name
@@ -180,129 +201,148 @@ msgstr "Nome para Mostrar"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__document_password
+#, fuzzy
 msgid "Document Password"
-msgstr ""
+msgstr "Senha do Documento"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__content_copying_allowed
+#, fuzzy
 msgid "Enable Copying of Content"
-msgstr ""
+msgstr "Habilitar a cópia de conteúdo"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__text_access_accessibility_tools_allowed
+#, fuzzy
 msgid "Enable Text Access for Accessibility Tools"
-msgstr ""
+msgstr "Habilitar acesso de texto para ferramentas de acessibilidade"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__encrypt
 msgid "Encrypt"
-msgstr ""
+msgstr "Criptografar"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_py3o_pdf_options__image_jpeg_quality
+#, fuzzy
 msgid "Enter a percentage between 0 and 100."
-msgstr ""
+msgstr "Digite uma porcentagem entre 0 e 100."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__export_hidden_slides
+#, fuzzy
 msgid "Export Automatically Insered Blank Pages"
-msgstr ""
+msgstr "Exportar páginas em branco automaticamente enseradas"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__export_bookmarks
+#, fuzzy
 msgid "Export Bookmarks"
-msgstr ""
+msgstr "Marcadores de exportação"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__export_bookmarks_named_dest
+#, fuzzy
 msgid "Export Bookmarks as Named Destinations"
-msgstr ""
+msgstr "Exportar marcadores como destinos nomeados"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__export_comments
+#, fuzzy
 msgid "Export Comments"
-msgstr ""
+msgstr "Comentários de exportação"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__export_placeholders
+#, fuzzy
 msgid "Export Placeholders"
-msgstr ""
+msgstr "Espaços reservados de exportação"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__export_filesystem_urls
+#, fuzzy
 msgid "Export URLs Relative to Filesystem"
-msgstr ""
+msgstr "Exportar URLs relativos ao sistema de arquivos"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__pdf_form_format__0
+#, fuzzy
 msgid "FDF"
-msgstr ""
+msgstr "FDF"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__changes__2
+#, fuzzy
 msgid "Filling in Form Fields"
-msgstr ""
+msgstr "Preenchendo campos de formulário"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__magnification__3
+#, fuzzy
 msgid "Fit Visible"
-msgstr ""
+msgstr "Ajuste Visível"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__magnification__2
 msgid "Fit Width"
-msgstr ""
+msgstr "Ajuste a largura"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__magnification__1
+#, fuzzy
 msgid "Fit in Window"
-msgstr ""
+msgstr "Ajuste na janela"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_ir_actions_report__py3o_server_id
+#, fuzzy
 msgid "Fusion Server"
-msgstr ""
+msgstr "Servidor de fusão"
 
 #. module: report_py3o_fusion_server
 #: code:addons/report_py3o_fusion_server/models/py3o_report.py:0
-#, python-format
+#, fuzzy, python-format
 msgid "Fusion server error %s"
-msgstr ""
+msgstr "Erro do servidor fusion %s"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 msgid "General"
-msgstr ""
+msgstr "Geral"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
+#, fuzzy
 msgid "Give a name to the set of PDF export options"
-msgstr ""
+msgstr "Dê um nome ao conjunto de opções de exportação pdf"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__pdf_form_format__2
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__hide_menubar
+#, fuzzy
 msgid "Hide Menubar"
-msgstr ""
+msgstr "Ocultar menubar"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__hide_toolbar
+#, fuzzy
 msgid "Hide Toolbar"
-msgstr ""
+msgstr "Ocultar barra de ferramentas"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__hide_window_controls
+#, fuzzy
 msgid "Hide Windows Controls"
-msgstr ""
+msgstr "Ocultar controles do Windows"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__printing__2
 msgid "High Resolution"
-msgstr ""
+msgstr "Alta resolução"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__id
@@ -312,52 +352,64 @@ msgstr "Identificação"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_py3o_pdf_options__pdfa
+#, fuzzy
 msgid ""
 "If you enable this option, you will not be able to password-protect the "
 "document or apply other security settings."
 msgstr ""
+"Se você ativar essa opção, você não poderá proteger o documento por senha ou "
+"aplicar outras configurações de segurança."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_py3o_server__url
+#, fuzzy
 msgid ""
 "If your Py3o Fusion server is on the same machine and runs on the default "
 "port, the URL is http://localhost:8765/form"
 msgstr ""
+"Se o servidor Py3o Fusion estiver na mesma máquina e for executado na porta "
+"padrão, a URL será http://localhost:8765/form"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 msgid "Image"
-msgstr ""
+msgstr "Imagem"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__image_compression
+#, fuzzy
 msgid "Image Compression"
-msgstr ""
+msgstr "Compressão de imagem"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__image_jpeg_quality
+#, fuzzy
 msgid "Image JPEG Quality"
-msgstr ""
+msgstr "Qualidade JPEG de imagem"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__initial_page
+#, fuzzy
 msgid "Initial Page"
-msgstr ""
+msgstr "Página inicial"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
+#, fuzzy
 msgid "Initial View"
-msgstr ""
+msgstr "Exibição inicial"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__changes__1
+#, fuzzy
 msgid "Inserting, Deleting and Rotating Pages"
-msgstr ""
+msgstr "Inserindo, Excluindo e Girando páginas"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__image_compression__jpeg
+#, fuzzy
 msgid "JPEG Compression"
-msgstr ""
+msgstr "Compressão JPEG"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options____last_update
@@ -380,278 +432,323 @@ msgstr "Última atualização em"
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 msgid "Links"
-msgstr ""
+msgstr "Links"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_ir_actions_report__py3o_is_local_fusion
+#, fuzzy
 msgid "Local Fusion"
-msgstr ""
+msgstr "Fusão Local"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__image_compression__lossless
 msgid "Lossless Compression"
-msgstr ""
+msgstr "Compressão sem Perda"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__printing__1
+#, fuzzy
 msgid "Low Resolution (150 dpi)"
-msgstr ""
+msgstr "Baixa Resolução (150 dpi)"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__magnification
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
+#, fuzzy
 msgid "Magnification"
-msgstr ""
+msgstr "Ampliação"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__name
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_ir_actions_report__py3o_is_local_fusion
+#, fuzzy
 msgid ""
 "Native formats will be processed without a server. You must use this mode if "
 "you call methods on your model into the template."
 msgstr ""
+"Formatos nativos serão processados sem um servidor. Você deve usar este modo "
+"se você chamar métodos em seu modelo para o modelo."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__changes__0
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__printing__0
 msgid "Not Permitted"
-msgstr ""
+msgstr "Não Permitido"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__open_fullscreen
+#, fuzzy
 msgid "Open in Full Screen Mode"
-msgstr ""
+msgstr "Aberto em modo de tela cheia"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__cross_doc_link_action__2
+#, fuzzy
 msgid "Open with Internet Browser"
-msgstr ""
+msgstr "Aberto com navegador de internet"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__cross_doc_link_action__1
+#, fuzzy
 msgid "Open with PDF Reader Application"
-msgstr ""
+msgstr "Aberto com aplicativo de leitor PDF"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__pdf_form_format__1
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_ir_actions_report__pdf_options_id
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__pdf_options_id
 msgid "PDF Options"
-msgstr ""
+msgstr "Opções PDF"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_py3o_server__pdf_options_id
+#, fuzzy
 msgid ""
 "PDF options can be set per Py3o Server but also per report. If both are "
 "defined, the options on the report are used."
 msgstr ""
+"As opções pdf podem ser definidas por Servidor Py3o, mas também por "
+"relatório. Se ambos forem definidos, as opções do relatório ão utilizadas."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_ir_actions_report__pdf_options_id
+#, fuzzy
 msgid ""
 "PDF options can be set per report, but also per Py3o Server. If both are "
 "defined, the options on the report are used."
 msgstr ""
+"As opções pdf podem ser definidas por relatório, mas também por Py3o Server. "
+"Se ambos forem definidos, as opções do relatório ão utilizadas."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__page_layout
 msgid "Page Layout"
-msgstr ""
+msgstr "Layout da página"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__initial_view__0
+#, fuzzy
 msgid "Page Only"
-msgstr ""
+msgstr "Somente página"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__initial_view
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
+#, fuzzy
 msgid "Panes"
-msgstr ""
+msgstr "Painéis"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__permission_password
+#, fuzzy
 msgid "Permission Password"
-msgstr ""
+msgstr "Senha de permissão"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_py3o_pdf_options__zoom
+#, fuzzy
 msgid "Possible values: from 50 to 1600"
-msgstr ""
+msgstr "Valores possíveis: de 50 a 1600"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__printing
 msgid "Printing"
-msgstr ""
+msgstr "Impressão"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__url
+#, fuzzy
 msgid "Py3o Fusion Server URL"
-msgstr ""
+msgstr "URL do Servidor de Fusão Py3o"
 
 #. module: report_py3o_fusion_server
 #: model:ir.actions.act_window,name:report_py3o_fusion_server.py3o_pdf_options_action
 #: model:ir.ui.menu,name:report_py3o_fusion_server.py3o_pdf_options_menu
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_tree
+#, fuzzy
 msgid "Py3o PDF Export Options"
-msgstr ""
+msgstr "Opções de exportação py3o PDF"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_server_configuration_form_view
+#, fuzzy
 msgid "Py3o Server Configuration"
-msgstr ""
+msgstr "Configuração do servidor Py3o"
 
 #. module: report_py3o_fusion_server
 #: model:ir.actions.act_window,name:report_py3o_fusion_server.py3o_server_configuration_action
 #: model:ir.ui.menu,name:report_py3o_fusion_server.py3o_server_configuration_menu
+#, fuzzy
 msgid "Py3o Servers"
-msgstr ""
+msgstr "Servidores Py3o"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_server_configuration_tree_view
+#, fuzzy
 msgid "Py3o Servers Configuration"
-msgstr ""
+msgstr "Configuração de servidores Py3o"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model,name:report_py3o_fusion_server.model_py3o_server
+#, fuzzy
 msgid "Py3o server"
-msgstr ""
+msgstr "Servidor Py3o"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__image_reduce_resolution
+#, fuzzy
 msgid "Reduce Image Resolution"
-msgstr ""
+msgstr "Reduza a resolução da imagem"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model,name:report_py3o_fusion_server.model_ir_actions_report
 msgid "Report Action"
-msgstr ""
+msgstr "Ação do Relatório"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model,name:report_py3o_fusion_server.model_py3o_report
 msgid "Report Py30"
-msgstr ""
+msgstr "Relatório Py30"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__resize_windows_initial_page
+#, fuzzy
 msgid "Resize Windows to Initial Page"
-msgstr ""
+msgstr "Redimensionar o Windows para a página inicial"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__restrict_permissions
+#, fuzzy
 msgid "Restrict Permissions"
-msgstr ""
+msgstr "Restringir permissões"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 msgid "Security"
-msgstr ""
+msgstr "Segurança"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__watermark
+#, fuzzy
 msgid "Sign With Watermark"
-msgstr ""
+msgstr "Sinal com marca d'água"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__page_layout__1
 msgid "Single Page"
-msgstr ""
+msgstr "Página Única"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__pdf_form_format
+#, fuzzy
 msgid "Submit Format"
-msgstr ""
+msgstr "Formato de envio"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__tagged_pdf
+#, fuzzy
 msgid "Tagged PDF (add document structure)"
-msgstr ""
+msgstr "PDF marcado (adicionar estrutura de documento)"
 
 #. module: report_py3o_fusion_server
 #: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py:0
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "The PDF/A option is not compatible with 'Cross-document Links' = 'Open with "
 "PDF Reader Application'."
 msgstr ""
+"A opção PDF/A não é compatível com 'Links de documentos cruzados' = 'Abrir "
+"com aplicativo de leitor PDF'."
 
 #. module: report_py3o_fusion_server
 #: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py:0
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "The initial page parameter must be strictly positive (current value: %d)"
 msgstr ""
+"O parâmetro inicial da página deve ser estritamente positivo (valor atual: "
+"%d)"
 
 #. module: report_py3o_fusion_server
 #: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py:0
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "The parameter Image JPEG Quality must be between 1 %% and 100 %% (current "
 "value: %s %%)"
 msgstr ""
+"O parâmetro Imagem JPEG Qualidade deve estar entre 1 %% e 100 %% (valor "
+"atual: %s %%)"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
+#, fuzzy
 msgid ""
 "The security settings are incompatible with the <b>PDF/A-1a</b> option in "
 "the <em>General</em> tab."
 msgstr ""
+"As configurações de segurança são incompatíveis com a opção <b>PDF/A-1a</b> "
+"na guia <em>Geral</em> ."
 
 #. module: report_py3o_fusion_server
 #: code:addons/report_py3o_fusion_server/models/py3o_pdf_options.py:0
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "The value of the zoom factor must be between 50 and 1600 (current value: %d)"
-msgstr ""
+msgstr "O valor do fator zoom deve estar entre 50 e 1600 (valor atual: %d)"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__initial_view__2
+#, fuzzy
 msgid "Thumbnails and Page"
-msgstr ""
+msgstr "Miniaturas e Página"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 msgid "User Interface"
-msgstr ""
+msgstr "Interface do Usuário"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
+#, fuzzy
 msgid "User Interface Options"
-msgstr ""
+msgstr "Opções de interface do usuário"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__open_bookmark_levels
+#, fuzzy
 msgid "Visible Bookmark Levels"
-msgstr ""
+msgstr "Níveis visíveis de marcadores"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__watermark_text
+#, fuzzy
 msgid "WaterMark Text"
-msgstr ""
+msgstr "Texto do WaterMark"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 msgid "Watermark"
-msgstr ""
+msgstr "Marca D'água"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
+#, fuzzy
 msgid "Window Options"
-msgstr ""
+msgstr "Opções de janela"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__pdf_form_format__3
 msgid "XML"
-msgstr ""
+msgstr "XML"
 
 #. module: report_py3o_fusion_server
 #: code:addons/report_py3o_fusion_server/models/ir_actions_report.py:0
@@ -666,9 +763,10 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__magnification__4
 msgid "Zoom"
-msgstr ""
+msgstr "Zoom"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__zoom
+#, fuzzy
 msgid "Zoom Factor"
-msgstr ""
+msgstr "Fator de zoom"
