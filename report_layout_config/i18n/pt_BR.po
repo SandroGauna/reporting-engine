@@ -1,0 +1,284 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* report_layout_config
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.styles_company_report
+#, fuzzy
+msgid ""
+"!important;\n"
+"                            }\n"
+"                        }\n"
+"                        tbody {\n"
+"                            tr:last-child td {\n"
+"                                border-bottom: 3px solid"
+msgstr ""
+"!importante;\n"
+"                            }\n"
+"                        }\n"
+"                        tbody {\n"
+"                            tr:td última criança {\n"
+"                                fundo de borda: 3px sólido"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.styles_company_report
+#, fuzzy
+msgid ""
+"&amp;.o_clean_footer {\n"
+"                        border-top: 3px solid"
+msgstr ""
+"&amp;.o_clean_footer {\n"
+"                        border-top: 3px sólido"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.styles_company_report
+#, fuzzy
+msgid ""
+"&amp;.o_report_layout_standard {\n"
+"                    h2 {\n"
+"                        color:"
+msgstr ""
+"&amp;.o_report_layout_standard {\n"
+"                    h2 {\n"
+"                        Cor:"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.styles_company_report
+#, fuzzy
+msgid ""
+";\n"
+"                            background-color:"
+msgstr "Cor de Fundo Herdada"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.styles_company_report
+#, fuzzy
+msgid ""
+";\n"
+"                            tr th {\n"
+"                                border-top: 3px solid"
+msgstr ""
+";\n"
+"                            tr th {\n"
+"                                border-top: 3px sólido"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.styles_company_report
+#, fuzzy
+msgid ""
+";\n"
+"                            }\n"
+"                        }\n"
+"                    }\n"
+"                    #total {\n"
+"                        strong {\n"
+"                            color:"
+msgstr ""
+";\n"
+"                            }\n"
+"                        }\n"
+"                    }\n"
+"                    #total\n"
+"                        forte {\n"
+"                            Cor:"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.styles_company_report
+#, fuzzy
+msgid ""
+";\n"
+"                        h4 {\n"
+"                            color:"
+msgstr ""
+";\n"
+"                        h4 {\n"
+"                            Cor:"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.styles_company_report
+#, fuzzy
+msgid ""
+";\n"
+"                        }\n"
+"                        .pagenumber {\n"
+"                            border: 3px solid"
+msgstr ""
+";\n"
+"                        }\n"
+"                        .pagenumber {\n"
+"                            borda: 3px sólido"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.styles_company_report
+#, fuzzy
+msgid ""
+";\n"
+"                        }\n"
+"                    }\n"
+"                &amp;.o_report_layout_clean {\n"
+"                    h1, h2, h3 {\n"
+"                        color:"
+msgstr ""
+";\n"
+"                        }\n"
+"                    }\n"
+"                &amp;.o_report_layout_clean {\n"
+"                    h1, h2, h3 {\n"
+"                        Cor:"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.styles_company_report
+#, fuzzy
+msgid ""
+";\n"
+"                    }\n"
+"                    #informations strong {\n"
+"                        color:"
+msgstr ""
+";\n"
+"                    }\n"
+"                    #informations forte {\n"
+"                        Cor:"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.styles_company_report
+#, fuzzy
+msgid ""
+";\n"
+"                    }\n"
+"                    #total strong{\n"
+"                        color:"
+msgstr ""
+";\n"
+"                    }\n"
+"                    #total forte{\n"
+"                        Cor:"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.styles_company_report
+#, fuzzy
+msgid ""
+";\n"
+"                    }\n"
+"                    strong {\n"
+"                        color:"
+msgstr ""
+";\n"
+"                    }\n"
+"                    forte {\n"
+"                        Cor:"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.styles_company_report
+#, fuzzy
+msgid ""
+";\n"
+"                    }\n"
+"                    table {\n"
+"                        thead {\n"
+"                            color:"
+msgstr ""
+";\n"
+"                    }\n"
+"                    tabela {\n"
+"                        thead {\n"
+"                            Cor:"
+
+#. module: report_layout_config
+#: model:ir.model,name:report_layout_config.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: report_layout_config
+#: model:ir.model,name:report_layout_config.model_base_document_layout
+msgid "Company Document Layout"
+msgstr "Layout do Documento da Empresa"
+
+#. module: report_layout_config
+#: model:ir.model.fields,field_description:report_layout_config.field_base_document_layout__display_name
+#: model:ir.model.fields,field_description:report_layout_config.field_res_company__display_name
+msgid "Display Name"
+msgstr "Mostrar  Nome"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.external_clean_layout_images_template
+#: model_terms:ir.ui.view,arch_db:report_layout_config.external_standard_layout_images_template
+msgid "Footer logo"
+msgstr "Logotipo do rodapé"
+
+#. module: report_layout_config
+#: model:ir.model.fields,field_description:report_layout_config.field_base_document_layout__full_footer_img
+#: model:ir.model.fields,field_description:report_layout_config.field_res_company__full_footer_img
+#, fuzzy
+msgid "Full footer image"
+msgstr "Imagem completa do rodapé"
+
+#. module: report_layout_config
+#: model:ir.model.fields,field_description:report_layout_config.field_base_document_layout__full_header_img
+#: model:ir.model.fields,field_description:report_layout_config.field_res_company__full_header_img
+#, fuzzy
+msgid "Full header image"
+msgstr "Imagem completa do cabeçalho"
+
+#. module: report_layout_config
+#: model:ir.model.fields,field_description:report_layout_config.field_base_document_layout__id
+#: model:ir.model.fields,field_description:report_layout_config.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: report_layout_config
+#: model:ir.model.fields,field_description:report_layout_config.field_base_document_layout____last_update
+#: model:ir.model.fields,field_description:report_layout_config.field_res_company____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação Feita em"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.external_clean_layout_images_template
+#: model_terms:ir.ui.view,arch_db:report_layout_config.external_standard_layout_images_template
+msgid "Logo"
+msgstr "Logotipo"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.external_clean_layout_images_template
+#: model_terms:ir.ui.view,arch_db:report_layout_config.external_standard_layout_images_template
+msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr "Página: <span j=\"0/\"> <span class=\"topage\"/> /</span>"
+
+#. module: report_layout_config
+#: model:ir.model.fields,help:report_layout_config.field_base_document_layout__full_footer_img
+#, fuzzy
+msgid "Replaces whole footer, disables footer logo"
+msgstr "Substitui rodapé inteiro, desativa o logotipo do rodapé"
+
+#. module: report_layout_config
+#: model:ir.model.fields,help:report_layout_config.field_base_document_layout__full_header_img
+#, fuzzy
+msgid "Replaces whole header with image"
+msgstr "Substitui cabeçalho inteiro por imagem"
+
+#. module: report_layout_config
+#: model:ir.model.fields,help:report_layout_config.field_res_company__full_footer_img
+#, fuzzy
+msgid "This image will replace all footer."
+msgstr "Esta imagem substituirá todo o rodapé."
+
+#. module: report_layout_config
+#: model:ir.model.fields,help:report_layout_config.field_res_company__full_header_img
+#, fuzzy
+msgid "This image will replace all header."
+msgstr "Esta imagem substituirá todo o cabeçalho."
