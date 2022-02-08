@@ -10,15 +10,16 @@ msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-16 08:52+0000\n"
-"PO-Revision-Date: 2018-01-16 08:52+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
+"PO-Revision-Date: 2022-02-03 22:10-0400\n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/oca/"
 "teams/23907/pt_BR/)\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. module: report_py3o
 #: code:addons/report_py3o/models/ir_actions_report.py:0
@@ -47,23 +48,23 @@ msgstr "Nome para Mostrar"
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_template_fallback
 msgid "Fallback"
-msgstr ""
+msgstr "Alternativa"
 
 #. module: report_py3o
 #: code:addons/report_py3o/models/ir_actions_report.py:0
-#, python-format
+#, fuzzy, python-format
 msgid "Field 'Output Format' is required for Py3O report"
-msgstr ""
+msgstr "O 'Formato de saída' de campo é necessário para o relatório Py3O"
 
 #. module: report_py3o
 #: model_terms:ir.ui.view,arch_db:report_py3o.py3o_template_configuration_search_view
 msgid "File Type"
-msgstr ""
+msgstr "Tipo de arquivo"
 
 #. module: report_py3o
 #: model_terms:ir.ui.view,arch_db:report_py3o.py3o_template_configuration_search_view
 msgid "Group By"
-msgstr ""
+msgstr "Agrupar por"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__id
@@ -73,33 +74,45 @@ msgstr "Identificação"
 
 #. module: report_py3o
 #: model:ir.model.fields,help:report_py3o.field_ir_actions_report__py3o_template_fallback
+#, fuzzy
 msgid ""
 "If the user does not provide a template this will be used it should be a "
 "relative path to root of YOUR module or an absolute path on your server."
 msgstr ""
+"Se o usuário não fornecer um modelo, este será usado, ele deve ser um "
+"caminho relativo para a raiz do seu módulo ou um caminho absoluto em seu "
+"servidor."
 
 #. module: report_py3o
 #: model:ir.model.fields,help:report_py3o.field_ir_actions_report__py3o_multi_in_one
+#, fuzzy
 msgid ""
 "If you execute a report on several records, by default Odoo will generate a "
 "ZIP file that contains as many files as selected records. If you enable this "
 "option, Odoo will generate instead a single report for the selected records."
 msgstr ""
+"Se você executar um relatório em vários registros, por padrão o Odoo gerará "
+"um arquivo ZIP que contém tantos arquivos quanto registros selecionados. Se "
+"você habilitar essa opção, o Odoo gerará, em vez disso, um único relatório "
+"para os registros selecionados."
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__ir_actions_report_id
+#, fuzzy
 msgid "Ir Actions Report"
-msgstr ""
+msgstr "Relatório de Ações do IR"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__is_py3o_native_format
+#, fuzzy
 msgid "Is Py3O Native Format"
-msgstr ""
+msgstr "É o formato nativo de Py3O"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__is_py3o_report_not_available
+#, fuzzy
 msgid "Is Py3O Report Not Available"
-msgstr ""
+msgstr "O relatório Py3o não está disponível"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report____last_update
@@ -122,34 +135,40 @@ msgstr "Última atualização em"
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_template__py3o_template_data
 #: model_terms:ir.ui.view,arch_db:report_py3o.py3o_report_view
+#, fuzzy
 msgid "LibreOffice Template"
-msgstr ""
+msgstr "Modelo LibreOffice"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_template__filetype
+#, fuzzy
 msgid "LibreOffice Template File Type"
-msgstr ""
+msgstr "Tipo de arquivo de modelo LibreOffice"
 
 #. module: report_py3o
 #: code:addons/report_py3o/models/py3o_report.py:0
-#, python-format
+#, fuzzy, python-format
 msgid "Libreoffice runtime not available. Please contact your administrator."
 msgstr ""
+"O tempo de execução do libreoffice não está disponível. Entre em contato com "
+"seu administrador."
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__module
 msgid "Module"
-msgstr ""
+msgstr "Módulo"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__msg_py3o_report_not_available
+#, fuzzy
 msgid "Msg Py3O Report Not Available"
-msgstr ""
+msgstr "Relatório Msg Py3O não disponível"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_multi_in_one
+#, fuzzy
 msgid "Multiple Records in a Single Report"
-msgstr ""
+msgstr "Vários registros em um único relatório"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_template__name
@@ -158,65 +177,75 @@ msgstr "Nome"
 
 #. module: report_py3o
 #: code:addons/report_py3o/models/py3o_report.py:0
-#, python-format
+#, fuzzy, python-format
 msgid "No template found. Aborting."
-msgstr ""
+msgstr "Nenhum modelo encontrado. Abortar."
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__odp
+#, fuzzy
 msgid "ODF Presentation"
-msgstr ""
+msgstr "Apresentação ODF"
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__fodp
+#, fuzzy
 msgid "ODF Presentation (Flat)"
-msgstr ""
+msgstr "Apresentação ODF (Plana)"
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__ods
+#, fuzzy
 msgid "ODF Spreadsheet"
-msgstr ""
+msgstr "Planilha ODF"
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__fods
+#, fuzzy
 msgid "ODF Spreadsheet (Flat)"
-msgstr ""
+msgstr "Planilha ODF (Flat)"
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__odt
+#, fuzzy
 msgid "ODF Text Document"
-msgstr ""
+msgstr "Documento de texto ODF"
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__fodt
+#, fuzzy
 msgid "ODF Text Document (Flat)"
-msgstr ""
+msgstr "Documento de texto ODF (Plano)"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_filetype
 msgid "Output Format"
-msgstr ""
+msgstr "Formato de saída"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__lo_bin_path
+#, fuzzy
 msgid "Path to the libreoffice runtime"
-msgstr ""
+msgstr "Caminho para o tempo de execução do libreoffice"
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__ir_actions_report__report_type__py3o
 #: model:ir.ui.menu,name:report_py3o.py3o_config_menu
+#, fuzzy
 msgid "Py3o"
-msgstr ""
+msgstr "Py3o"
 
 #. module: report_py3o
 #: model:ir.actions.report,name:report_py3o.res_users_report_py3o
+#, fuzzy
 msgid "Py3o Demo Report"
-msgstr ""
+msgstr "Relatório de demonstração de Py3o"
 
 #. module: report_py3o
 #: model_terms:ir.ui.view,arch_db:report_py3o.act_report_xml_search_view
+#, fuzzy
 msgid "Py3o Reports"
-msgstr ""
+msgstr "Relatórios Py3o"
 
 #. module: report_py3o
 #: model:ir.actions.act_window,name:report_py3o.py3o_template_configuration_action
@@ -224,44 +253,45 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:report_py3o.py3o_template_configuration_form_view
 #: model_terms:ir.ui.view,arch_db:report_py3o.py3o_template_configuration_search_view
 #: model_terms:ir.ui.view,arch_db:report_py3o.py3o_template_configuration_tree_view
+#, fuzzy
 msgid "Py3o Templates"
-msgstr ""
+msgstr "Modelos Py3o"
 
 #. module: report_py3o
 #: model:ir.model,name:report_py3o.model_py3o_template
+#, fuzzy
 msgid "Py3o template"
-msgstr ""
+msgstr "Modelo Py3o"
 
 #. module: report_py3o
 #: model:ir.model,name:report_py3o.model_ir_actions_report
-#, fuzzy
 msgid "Report Action"
-msgstr "Relatório"
+msgstr "Ação do Relatório"
 
 #. module: report_py3o
 #: model:ir.model,name:report_py3o.model_py3o_report
 msgid "Report Py30"
-msgstr ""
+msgstr "Relatório Py30"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__report_type
-#, fuzzy
 msgid "Report Type"
-msgstr "Relatório"
+msgstr "Tipo de relatório"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_template_id
 msgid "Template"
-msgstr ""
+msgstr "Modelo"
 
 #. module: report_py3o
 #: model:ir.model.fields,help:report_py3o.field_ir_actions_report__module
+#, fuzzy
 msgid "The implementer module that provides this report"
-msgstr ""
+msgstr "O módulo implementador que fornece este relatório"
 
 #. module: report_py3o
 #: code:addons/report_py3o/models/ir_actions_report.py:0
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "The libreoffice runtime is required to genereate the py3o report '%s' but is "
 "not found into the bin path. You must install the libreoffice runtime on the "
@@ -269,12 +299,23 @@ msgid ""
 "can provide the full path to the runtime by setting the key 'py3o."
 "conversion_command' into the configuration parameters."
 msgstr ""
+"O tempo de execução do libreoffice é necessário para generear o relatório "
+"py3o '%s' mas não é encontrado no caminho da lixeira. Você deve instalar o "
+"tempo de execução do libreoffice no servidor. Se o tempo de execução já "
+"estiver instalado e não for encontrado pelo Odoo, você pode fornecer o "
+"caminho completo para o tempo de execução, definindo a tecla 'py3o."
+"conversion_command' nos parâmetros de configuração."
 
 #. module: report_py3o
 #: model:ir.model.fields,help:report_py3o.field_ir_actions_report__report_type
+#, fuzzy
 msgid ""
 "The type of the report that will be rendered, each one having its own "
 "rendering method. HTML means the report will be opened directly in your "
 "browser PDF means the report will be rendered using Wkhtmltopdf and "
 "downloaded by the user."
 msgstr ""
+"O tipo de relatório que será prestado, cada um tendo seu próprio método de "
+"renderização. HTML significa que o relatório será aberto diretamente no seu "
+"navegador PDF significa que o relatório será renderizado usando Wkhtmltopdf "
+"e baixado pelo usuário."
